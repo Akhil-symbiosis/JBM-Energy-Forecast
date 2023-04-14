@@ -21,7 +21,7 @@ class JBM:
 if __name__ == "__main__":
     
     cluster = MongoClient("localhost:27017")
-    db=cluster["JBM_EnergyData"]
+    db=cluster["JBM_Energy"]
     collection=db['test_jbm']
 
     obj=JBM()
